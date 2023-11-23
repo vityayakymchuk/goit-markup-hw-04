@@ -107,12 +107,6 @@ display: flex;
 flex-direction: row;
 gap: 40px;
 }
-.send-mail {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.make-call {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 a {text-decoration: none;}
 
@@ -122,7 +116,8 @@ ul {list-style-type: none;}
 color: #2E2F42}
 
 .contact {font-style: normal;
-color: #434455;}
+color: #434455;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .contact:hover, :focus {color: #404bbf;}
 
 /* section-1 */
@@ -212,11 +207,6 @@ gap: 24px;
    margin-bottom: 8px;
 }
 
-svg {
-    width: 64px;
-    height: 64px;
-}
-
 .our-advantages-container {
     display: flex;
     flex-direction: column;
@@ -261,6 +251,10 @@ margin-bottom: 72px;}
     align-items: center;
     gap: 24px; 
 }
+
+.foto {
+    padding: 32px 0
+}
 .teams-item {background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
@@ -278,7 +272,7 @@ text-align: center;
 margin-bottom: 8px;
 }
 
-.job-title {padding-top: 32px;
+.job-title {
 margin-bottom: 8px;}
 
 .social-media {
